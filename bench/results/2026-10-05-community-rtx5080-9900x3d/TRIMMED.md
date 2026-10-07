@@ -1,0 +1,97 @@
+# 精简文件
+
+从 PR #1243 移植到 0.1.40.2。为保持仓库精简，原始转储、日志和二进制文件已省略；
+README、摘要、配置和每次运行的结果保持不变。以下文件原本包含在原始 PR 中。
+
+88 个文件，1.5 MB：
+
+| 文件 | 字节数 | 原因 |
+|---|---:|---|
+| `coder-iq1_m/data/speed-128k-1.json` | 17,673 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-128k-2.json` | 17,868 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-128k-3.json` | 17,865 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-1k-1.json` | 16,946 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-1k-2.json` | 17,011 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-1k-3.json` | 17,267 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-262k-1.json` | 17,947 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-262k-2.json` | 17,926 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-262k-3.json` | 17,922 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-32k-1.json` | 17,173 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-32k-2.json` | 17,227 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-32k-3.json` | 17,400 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-4k-1.json` | 17,270 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-4k-2.json` | 17,346 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-4k-3.json` | 17,115 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-64k-1.json` | 17,563 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-64k-2.json` | 17,583 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/data/speed-64k-3.json` | 17,620 | 超出该文件夹的大小预算 |
+| `coder-iq1_m/matrix.json` | 17,910 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-128k-1.json` | 17,735 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-128k-2.json` | 17,777 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-128k-3.json` | 17,979 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-1k-1.json` | 17,218 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-1k-2.json` | 16,932 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-1k-3.json` | 17,267 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-262k-1.json` | 17,746 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-262k-2.json` | 17,724 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-262k-3.json` | 17,826 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-32k-1.json` | 17,324 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-32k-2.json` | 17,472 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-32k-3.json` | 17,477 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-4k-1.json` | 17,318 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-4k-2.json` | 17,389 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-4k-3.json` | 17,213 | 超出该文件夹的大小预算 |
+| `iq3_s/data/speed-64k-1.json` | 17,800 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-128k-1.json` | 17,766 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-128k-2.json` | 18,035 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-128k-3.json` | 17,991 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-1k-1.json` | 11,554 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-1k-2.json` | 12,142 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-1k-3.json` | 12,793 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-262k-1.json` | 17,714 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-262k-2.json` | 17,832 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-262k-3.json` | 17,774 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-32k-1.json` | 15,230 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-32k-2.json` | 15,780 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-32k-3.json` | 16,350 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-4k-1.json` | 13,385 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-4k-2.json` | 13,994 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-4k-3.json` | 14,616 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-64k-1.json` | 16,882 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-64k-2.json` | 17,390 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/data/speed-64k-3.json` | 17,959 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs/matrix.json` | 19,412 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-128k-1.json` | 17,678 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-128k-2.json` | 17,822 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-128k-3.json` | 18,033 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-262k-1.json` | 17,784 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-262k-2.json` | 17,777 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-262k-3.json` | 17,828 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-32k-1.json` | 15,188 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-32k-2.json` | 15,723 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-32k-3.json` | 16,280 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-4k-2.json` | 12,874 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-4k-3.json` | 14,283 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-64k-1.json` | 16,855 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-64k-2.json` | 17,408 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/data/speed-64k-3.json` | 17,920 | 超出该文件夹的大小预算 |
+| `unsloth-ud-iq4_xs_calibrated/matrix.json` | 19,395 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-128k-1.json` | 17,735 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-128k-2.json` | 17,871 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-128k-3.json` | 18,016 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-1k-1.json` | 17,346 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-1k-2.json` | 17,444 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-1k-3.json` | 17,513 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-262k-1.json` | 17,880 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-262k-2.json` | 17,996 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-262k-3.json` | 17,883 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-32k-1.json` | 17,835 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-32k-2.json` | 17,897 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-32k-3.json` | 17,904 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-4k-1.json` | 17,626 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-4k-2.json` | 17,663 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-4k-3.json` | 17,765 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-64k-1.json` | 17,892 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-64k-2.json` | 17,774 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/data/speed-64k-3.json` | 17,963 | 超出该文件夹的大小预算 |
+| `unsloth-ud-q4_k_xl/matrix.json` | 19,274 | 超出该文件夹的大小预算 |
